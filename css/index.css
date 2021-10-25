@@ -205,3 +205,31 @@
 .avatar{
     padding-left: 1rem !important;
 }
+
+.csv-form {
+    border: 1px solid #eeeeee;
+    padding: 1rem;
+    margin: 1rem 0;
+    border-radius: 0.5rem;
+}
+
+.file-btn {
+    background-color: #ee9949 !important;
+}
+
+.radio-group {
+    display: flex;
+}
+
+.radio-group p{
+    margin-right: 2rem;
+}
+
+[type="radio"]:checked+span:after, [type="radio"].with-gap:checked+span:after {
+    border: 2px solid #ee9949;
+    background-color: #ee9949;
+}
+
+[type="radio"].with-gap:checked+span:before{
+    border: 2px solid #ee9949;
+}
